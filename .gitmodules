@@ -1,3 +1,6 @@
 [submodule "client"]
 	path = client
 	url = https://github.com/MertAksehirlioglu/prakSS23.git
+[submodule "server"]
+	path = server
+	url = https://github.com/MertAksehirlioglu/prakss23server.git
