@@ -16,19 +16,19 @@ Steps:
    npm run generate
    ```
   
-4. Start server (For details see [server repository](https://github.com/MertAksehirlioglu/prakss23server) )
+3. Start server (For details see [server repository](https://github.com/MertAksehirlioglu/prakss23server) )
    ``` bash
    npm run start
    ```
-5. Start CPEE instance
-6. CPEE instance sends getOrder request to server.
-7. Server updates status.
-8. Client renders available state.
-9. User selects drink, types name and clicks on submit order.
-10. Client sends the order to server.
-11. Server sends the order to callback address.
-12. CPEE Engine processes the order request
-13. Back to Step 6
+4. Start CPEE instance
+5. CPEE instance sends getOrder request to server.
+6. Server updates status.
+7. Client renders available state.
+8. User selects drink, types name and clicks on submit order.
+9. Client sends the order to server.
+10. Server sends the order to callback address.
+11. CPEE Engine processes the order request
+12. Back to Step 5
      
 
 ## Activity Diagram
