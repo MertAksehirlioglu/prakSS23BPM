@@ -4,17 +4,19 @@ This project implements a remote order receiving system, comprising a Node.js an
 
 ## How it works?
 
-1.Configure an instance in CPEE Engine (See https://cpee.org/flow/?monitor=https://cpee.org/flow/engine/18252/ example instance)
-  a. Add getOrder Endpoint: "https://lehre.bpm.in.tum.de/ports/22950/getOrder"
-  b. Add availableItems Data Element
-  b. Insert Service Call with Scripts and configure parameters
+Steps: 
 
-2. Generate and deploy client build files to .public folder (For details see client repository)
+1. Configure an instance in CPEE Engine (See [example instance](https://cpee.org/flow/?monitor=https://cpee.org/flow/engine/18252/) )
+  - Add getOrder Endpoint: "https://lehre.bpm.in.tum.de/ports/22950/getOrder"
+  - Add availableItems Data Element
+  - Insert Service Call with Scripts and configure parameters
+
+2. Generate and deploy client build files to .public folder (For details see [client repository](https://github.com/MertAksehirlioglu/prakss23))
    ``` bash
    npm run generate
    ```
   
-4. Start server (For details see server repository)
+4. Start server (For details see [server repository](https://github.com/MertAksehirlioglu/prakss23server) )
    ``` bash
    npm run start
    ```
