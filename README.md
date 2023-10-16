@@ -31,9 +31,6 @@ Steps:
 13. Back to Step 6
      
 
-
-CPEE Engine sends
-
 ## Activity Diagram
 
 ![activity drawio](https://github.com/MertAksehirlioglu/prakSS23BPM/assets/23525970/30d99383-dc4d-42ae-b1b9-f944522e6ceb)
