@@ -35,4 +35,4 @@ Steps:
 
 ## Activity Diagram
 
-![activity drawio](https://github.com/MertAksehirlioglu/prakSS23BPM/assets/23525970/30d99383-dc4d-42ae-b1b9-f944522e6ceb)
+![activity drawio-2](https://github.com/MertAksehirlioglu/prakSS23BPM/assets/23525970/06cc8ed4-5180-48d6-82b8-44afb742fdd1)
