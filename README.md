@@ -32,6 +32,32 @@ Steps:
 11. CPEE Engine processes the order request
 12. Back to Step 5
      
+## CPEE Details
+
+For configuring an instance you need the following,
+
+#### Data Elements:
+<img width="941" alt="Screenshot 2023-10-21 at 12 55 40" src="https://github.com/MertAksehirlioglu/prakSS23BPM/assets/23525970/0bb5894e-8a0a-4bec-b65c-61cf11b37c22">
+
+- AvailableItems variable contains the array of available items and order variable is used for storing orders from the endpoint.
+
+### Endpoint:
+<img width="667" alt="Screenshot 2023-10-21 at 12 57 21" src="https://github.com/MertAksehirlioglu/prakSS23BPM/assets/23525970/596c2ab2-fe30-4903-95e3-156a9ed720bc">
+
+- Add getOrder endpoint to the endpoints list.
+
+### Graph:
+
+<img width="1438" alt="Screenshot 2023-10-21 at 12 59 17" src="https://github.com/MertAksehirlioglu/prakSS23BPM/assets/23525970/08707e8b-015d-458b-8cb8-76361fb0c2de">
+
+- Insert a service call with scripts and apply the parameters as you see in the screenshot:
+
+  - Set endpoint
+  - Set method
+  - Pass the argument
+  - Configure Output Handling -> Finalize
+
+
 
 ## Activity Diagram
 
